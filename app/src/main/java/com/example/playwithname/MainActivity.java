@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     public void calculate(View view) {
         String s= editText.getText().toString();
 
-        textView.setText("Fuck you " + s);
+        textView.setText("Welcome to the new world " + s);
         Toast.makeText(this, "Thanks for using this app! "+ s, Toast.LENGTH_SHORT).show();
     }
 }
